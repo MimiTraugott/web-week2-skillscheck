@@ -106,13 +106,21 @@ const me = {
 // 		if (arr[i]> 100) {
 // 			return (answers.push('big'))
 // 		}
-// 		} else {
+// 		} else 
 // 		if (arr[i] <= 100) {
 // 			return answers.push('small')
 // 		}
 // 	}
 
-// }
+
+// function bigOrSmall() {
+// 	const answers =[]	
+// 	for (let i = 0; i < answers.length; i++) 
+// 		if (answers <= 100) {
+// 			return "big"
+// 		} else
+// 			return "small"
+// 	}
 
 
 //////////////////PROBLEM 13////////////////////
