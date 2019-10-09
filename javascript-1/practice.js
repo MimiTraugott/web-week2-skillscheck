@@ -68,15 +68,11 @@ function iLove() {
 const faveColors = ['red', 'green', 'black']
 const colorCopy = faveColors.slice();
 
-
-
 //////////////////PROBLEM 9////////////////////
 
 // Add a fourth color to the end of the 'colorCopy' array using push
 
 colorCopy.push('yellow');
-
-
 
 //////////////////PROBLEM 10////////////////////
 
@@ -98,20 +94,34 @@ const me = {
 	}
 
 }
-
-
 //////////////////PROBLEM 12////////////////////
 
 // Create a function called 'bigOrSmall' that takes in one parameter, arr. Create a new array inside of bigOrSmall called 'answers'. Loop over the passed in arr param. If the number is GREATER than 100, push 'big' as a string to the answers array. If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. Return the answers array inside of the function
 
-// Code here
+
+
+function bigOrSmall(arr){
+	const answers = []
+	for (let i = 0; i < arr.length; i++) {
+		if (arr[i] > 100) {
+			return answers.push('big')
+		}
+		} else {
+		if (arr[i] <= 100) {
+			return answers.push('small')
+		}
+	}
+
+}
 
 //////////////////PROBLEM 13////////////////////
 
 // Create a function called 'arrayReverser' that takes in one parameter, arr. Inside of arrayReverser, create an empty array called 'reversed'. Using a for loop, loop over the passed in array in reverse and add each item to the new reversed array. Finally, return the new reversed array
 
-//Code Here
+function arrayReverser(arr){
+	const reversed = []
 
+}
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 
 // Below is an array, myNumbers. We will be using .map, .filter, .reduce and .forEach to manipulate the array in some form
