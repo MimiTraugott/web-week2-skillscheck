@@ -27,11 +27,9 @@ const phrase = '';
 //Create an if statement that checkes to see if the lovesCode variable is equal to true, if it is, set the phrase variable created above to 'I love code', it it's not true set the phrase variable to 'I do not love to code'
 
 if (lovesCode === true) {
-    phrase = "I love to code";
+    const phrase = "I love to code";
 } else {
-    if (lovesCode !== true) {
-    phrase = "I do not love to code";
-}
+    const phrase = "I do not love to code";
 }
 
 //////////////////Wrap Up////////////////////
