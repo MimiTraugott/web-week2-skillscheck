@@ -24,6 +24,11 @@ main {
     height: 400px;
     margin-bottom: 0%;
     color: yellow;
+    direction: flex;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+
     
 }
 
