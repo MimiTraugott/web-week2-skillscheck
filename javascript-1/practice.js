@@ -100,28 +100,30 @@ const me = {
 
 
 
-function bigOrSmall(arr){
-	const answers = []
-	for (let i = 0; i < arr.length; i++) {
-		if (arr[i] > 100) {
-			return answers.push('big')
-		}
-		} else {
-		if (arr[i] <= 100) {
-			return answers.push('small')
-		}
-	}
+// function bigOrSmall(arr){
+// 	const answers = []
+// 	for (let i = 0; i < arr.length; i++) {
+// 		if (arr[i]> 100) {
+// 			return (answers.push('big'))
+// 		}
+// 		} else {
+// 		if (arr[i] <= 100) {
+// 			return answers.push('small')
+// 		}
+// 	}
 
-}
+// }
+
 
 //////////////////PROBLEM 13////////////////////
 
 // Create a function called 'arrayReverser' that takes in one parameter, arr. Inside of arrayReverser, create an empty array called 'reversed'. Using a for loop, loop over the passed in array in reverse and add each item to the new reversed array. Finally, return the new reversed array
 
-function arrayReverser(arr){
-	const reversed = []
+// function arrayReverser(arr){
+// 	const reversed = []
+// 	for (let a >= 0; a < arr.length - 1; i--)
 
-}
+
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 
 // Below is an array, myNumbers. We will be using .map, .filter, .reduce and .forEach to manipulate the array in some form
@@ -132,7 +134,15 @@ const myNumbers = [3, 55, 788, 2, 1]
 
 // First, let's use .map to create a new array that doubles each number. Call the new array 'doubled'
 
-// Code Here
+
+// function doubled (arr){
+// 	const doubled = [];
+// 	for (let i = 0; i < arr.length; i++) {
+// 		doubled.push(arr[i] * 2);
+// 	}
+// 	return doubled;
+// }
+
 
 //////////////////PROBLEM 15////////////////////
 
@@ -157,7 +167,6 @@ const myNumbers = [3, 55, 788, 2, 1]
 // Did you know that George Foreman has five sons named George? Let's go ahead and change everyone's name in the notGeorge array to George using .map. Call the new array 'forTheLoveOfGeorge'
 const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
-// Code Here
 
 //////////////////PROBLEM 19////////////////////
 
@@ -170,8 +179,13 @@ const people = [
 	{ name: 'Serena', friend: true, awesomeLevel: 8 },
 	{ name: 'George', friend: true, awesomeLevel: 7 }
 ]
-
-// Code Here
+// const enemies = people.filter(function (el, i, arr) {
+// 	if (el.friend === false) {
+// 		return true
+// 	}
+// })
+// console.log(people)
+// console.log(enemies)
 
 //////////////////PROBLEM 20////////////////////
 
